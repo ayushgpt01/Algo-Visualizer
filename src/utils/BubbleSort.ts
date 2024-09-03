@@ -1,8 +1,9 @@
+import { AnimationItem } from "../Types/VisualizerTypes";
 import { swap } from "./MathUtils";
 
-export const BubbleSort = (arr: number[]) => {
+export const BubbleSort = (arr: number[]): AnimationItem[] => {
   const sortedArray = [...arr];
-  const anims = [];
+  const anims: AnimationItem[] = [];
 
   for (let i = 0; i < sortedArray.length; i++) {
     for (let j = 0; j < sortedArray.length - i - 1; j++) {

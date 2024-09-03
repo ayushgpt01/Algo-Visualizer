@@ -1,11 +1,7 @@
 import Visualizer from "../Components/Visualizer/Visualizer";
 
 const App = () => {
-  return (
-    <div>
-      <Visualizer></Visualizer>
-    </div>
-  );
+  return <Visualizer />;
 };
 
 export default App;
